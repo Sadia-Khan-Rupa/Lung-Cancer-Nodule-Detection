@@ -38,7 +38,7 @@ To get started with this project, clone the repository:
 git clone https://github.com/Sadia-Khan-Rupa/Lung-Cancer-Nodule-Detection.git
 cd Lung-Cancer-Nodule-Detection
 ```
-
+---
 
 ## **Prerequisites**
 This project requires Python and the following libraries:
@@ -65,6 +65,7 @@ Matplotlib
 h5py
 For the full list of dependencies, refer to requirements.txt.
 
+---
 ## Data
 
 This project expects the data in an HDF5 format (dataset.h5). The dataset should contain two groups:
@@ -80,6 +81,8 @@ val_images, val_labels = load_hdf_dataset('val_again')
 
 You can replace 'train_again' and 'val_again' with the path to your dataset.
 
+
+---
 ## **Model Architectures**
 
 **SqueezeNet Model**
@@ -114,7 +117,7 @@ def build_mobilenet(input_shape):
     model = Model(inputs=base_model.input, outputs=x)
     return model
 
-
+---
 ## **Training and Evaluation**
 
 The models are trained using the following parameters:
@@ -136,6 +139,8 @@ model_dw.fit(x=train_images,
              shuffle=True)
 Similarly, you can train your MobileNet model by following the same training loop.
 
+---
+
 ## **Performance Metrics:**
 Accuracy and loss for training and validation sets
 ROC curve and AUC score for model evaluation
@@ -152,3 +157,10 @@ After training, the models achieve the following performance:
 The models' ROC curves show the trade-off between true positive rate and false positive rate.
 
 plt.plot(fpr[1], tpr[1])
+
+---
+## 📞 **Contact**
+
+Email: khanrupasadia@gmail.com
+LinkedIn: [Sadia LinkedIn](https://www.linkedin.com/in/sadia-khan-rupa/)
+
