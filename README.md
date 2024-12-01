@@ -37,8 +37,10 @@ To get started with this project, clone the repository:
 ```bash
 git clone https://github.com/Sadia-Khan-Rupa/Lung-Cancer-Nodule-Detection.git
 cd Lung-Cancer-Nodule-Detection
+```
 
-Prerequisites
+
+## **Prerequisites**
 This project requires Python and the following libraries:
 
 TensorFlow (Keras)
@@ -50,7 +52,9 @@ h5py
 You can install the dependencies by running:
 
 pip install -r requirements.txt
-Dependencies
+
+
+### Dependencies
 
 Python >= 3.7
 TensorFlow >= 2.0
