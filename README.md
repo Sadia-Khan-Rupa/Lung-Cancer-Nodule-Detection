@@ -149,7 +149,9 @@ Results
 After training, the models achieve the following performance:
 
 **SqueezeNet Accuracy: ~84.1% (Training), ~83.3% (Validation)**
+
 **MobileNet Accuracy: ~70.1% (Training), ~64.0% (Validation)**
+
 **AUC Score: 0.83 (for SqueezeNet) and (Add results for MobileNet here)**
 
 ### ROC Curve:
