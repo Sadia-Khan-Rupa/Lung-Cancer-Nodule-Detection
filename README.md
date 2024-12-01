@@ -31,8 +31,20 @@ Both models are evaluated on the same dataset and aim to predict the binary clas
 
 ## Getting Started
 
+
 To get started with this project, clone the repository:
 
 ```bash
-git clone https://github.com/your-username/squeezenet-image-classification.git
-cd squeezenet-image-classification
+git clone https://github.com/Sadia-Khan-Rupa/Lung-Cancer-Nodule-Detection.git
+cd Lung-Cancer-Nodule-Detection
+
+Prerequisites
+This project requires Python and the following libraries:
+
+TensorFlow (Keras)
+NumPy
+Pandas
+Scikit-learn
+Matplotlib
+h5py
+You can install the dependencies by running
