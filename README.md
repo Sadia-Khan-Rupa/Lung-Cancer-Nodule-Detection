@@ -43,27 +43,18 @@ cd Lung-Cancer-Nodule-Detection
 ## **Prerequisites**
 This project requires Python and the following libraries:
 
-TensorFlow (Keras)
-NumPy
-Pandas
-Scikit-learn
-Matplotlib
-h5py
+- TensorFlow (Keras)
+- NumPy
+- Pandas
+- Scikit-learn
+- Matplotlib
+- h5py
+
 You can install the dependencies by running:
 
 pip install -r requirements.txt
 
 
-### Dependencies
-
-Python >= 3.7
-TensorFlow >= 2.0
-NumPy
-Pandas
-Scikit-learn
-Matplotlib
-h5py
-For the full list of dependencies, refer to requirements.txt.
 
 ---
 ## Data
