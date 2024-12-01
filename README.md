@@ -139,10 +139,12 @@ Results
 
 After training, the models achieve the following performance:
 
-SqueezeNet Accuracy: ~84.1% (Training), ~83.3% (Validation)
-MobileNet Accuracy: (Add results of MobileNet model here)
-AUC Score: 0.83 (for SqueezeNet) and (Add results for MobileNet here)
-ROC Curve:
+### SqueezeNet Accuracy: ~84.1% (Training), ~83.3% (Validation)
+### MobileNet Accuracy: (Add results of MobileNet model here)
+### AUC Score: 0.83 (for SqueezeNet) and (Add results for MobileNet here)
+
+### ROC Curve:
+
 The models' ROC curves show the trade-off between true positive rate and false positive rate.
 
 plt.plot(fpr[1], tpr[1])
