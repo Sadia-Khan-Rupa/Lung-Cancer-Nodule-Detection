@@ -70,10 +70,14 @@ For the full list of dependencies, refer to requirements.txt.
 This project expects the data in an HDF5 format (dataset.h5). The dataset should contain two groups:
 
 X: The images (50x50 pixels, grayscale)
+
 Y: The labels (binary, one-hot encoded)
+
 Example of loading data:
 train_images, tr_labels = load_hdf_dataset('train_again')
+
 val_images, val_labels = load_hdf_dataset('val_again')
+
 You can replace 'train_again' and 'val_again' with the path to your dataset.
 
 ## **Model Architectures**
